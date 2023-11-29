@@ -1,0 +1,23 @@
+
+.myBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    color: rgb(218, 26, 119);
+    font-size: 14px;
+    background: transparent;
+    border: 1px solid rgb(117, 92, 104);
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.icon {
+    width: 16px;
+    aspect-ratio: 1 / 1;
+}
+
+.myBtn:hover {
+    background: rgb(255,220,235);
+    background: radial-gradient(circle, rgba(255,220,235,1) 40%, rgba(212,203,255,1) 100%);
+}
